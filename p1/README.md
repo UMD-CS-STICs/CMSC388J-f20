@@ -21,14 +21,14 @@ To create and activate one, enter the following commands in your terminal:
 
 For Mac/Linux:
 ```bash
-$python3 -m venv venv        # creates environment
-$source ./venv/bin/activate  # enters environment
+$ python3 -m venv venv        # creates environment
+$ source ./venv/bin/activate  # enters environment
 ```
 
 For Windows:
 ```bash
-$py -m venv venv             # creates environment
-$./venv/Scripts/activate     # enters environment
+$ py -m venv venv             # creates environment
+$ ./venv/Scripts/activate     # enters environment
 ```
 
 These instructions can also be found in the Week 1 slides.
@@ -36,10 +36,10 @@ These instructions can also be found in the Week 1 slides.
 Testing this project with our public tests requires a package called `pytest`.
 To install it, run either of the following in your terminal while in your virtual environment:
 ```bash    
-$pip3 install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 ```bash
-$pip3 install pytest
+$ pip3 install pytest
 ```
 Again, you **must** be in your virtual environment when installing packages with pip.
 
@@ -165,15 +165,16 @@ In `practice.py`, implement the following functions:
 
 ## Testing
 
-Navigate into the `p1/` directory and run the command `pytest` or the appropriate
-command for your system. You should see your test results in the terminal.
+Navigate into the `p1/` directory and run the command `pytest`.
+You should see your test results in the terminal.
 
 ## Submission & Grading
 
 Compress a `p1` directory into a .zip file containing `practice.py` and `test_practice.py`
 and submit it on ELMS after testing thoroughly; all of your work should be in this module.
-The ELMS page is not set up yet as of posting this project; it will be setup within a few days.
 
 There are 16 public tests, and each will be worth 10 points.
-No not include your virtual environment in your submission.
+If your submission doesn't have the `practice.py` and `test_practice.py` files
+and/or has anything other than the `README.md`, 20 points will be deducted from your score.
+Do not include your virtual environment in your submission.
 Doing so will result in a deduction of 20 points.
