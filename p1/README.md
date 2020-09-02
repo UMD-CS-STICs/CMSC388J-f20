@@ -15,30 +15,33 @@ You will be implementing some basic functions in Python as practice, including u
 Make sure Python 3.6+ is installed on your computer.
 
 You should work on this project (and the other projects in this course) in a virtual environment.
+Navigate to the root of a directory you will use for this class. You should use the same environment
+for all projects in this course; you don't need more than one.
 To create and activate one, enter the following commands in your terminal:
 
-For Mac:
+For Mac/Linux:
 ```bash
->>> python3 -m venv venv        # creates environment
->>> source ./venv/bin/activate  # enters environment
+$python3 -m venv venv        # creates environment
+$source ./venv/bin/activate  # enters environment
 ```
 
 For Windows:
 ```bash
->>> py -m venv venv             # creates environment
->>> ./venv/Scripts/activate     # enters environment
+$py -m venv venv             # creates environment
+$./venv/Scripts/activate     # enters environment
 ```
 
 These instructions can also be found in the Week 1 slides.
 
 Testing this project with our public tests requires a package called `pytest`.
-To install it, run either of the following in your terminal while in your virtual environment, depending on your system:
+To install it, run either of the following in your terminal while in your virtual environment:
 ```bash    
->>> pip3 install -r requirements.txt
+$pip3 install -r requirements.txt
 ```
 ```bash
->>> pip3 install pytest
+$pip3 install pytest
 ```
+Again, you **must** be in your virtual environment when installing packages with pip.
 
 ## Project
 
@@ -131,10 +134,6 @@ In `practice.py`, implement the following functions:
     between the second item and the first item must be equal to `grid_size`.
         Error message on failure: "Grid indexes do not match grid_size."
 
-    Arguments:
-    grid_indices -- A sequence of sequences of numbers
-    grid_size -- An integer
-
     Example:
     ```python
     >>> validate_grid_indices((1, 3), 2)
@@ -166,12 +165,15 @@ In `practice.py`, implement the following functions:
 
 ## Testing
 
-Navigate into the `p1/` directory and run the command `python3 tests.py` or the appropriate
+Navigate into the `p1/` directory and run the command `pytest` or the appropriate
 command for your system. You should see your test results in the terminal.
 
 ## Submission & Grading
 
-Submit `practice.py` to ELMS after testing thoroughly; all of your work should be in this module.
+Compress a `p1` directory into a .zip file containing `practice.py` and `test_practice.py`
+and submit it on ELMS after testing thoroughly; all of your work should be in this module.
 The ELMS page is not set up yet as of posting this project; it will be setup within a few days.
 
 There are 16 public tests, and each will be worth 10 points.
+No not include your virtual environment in your submission.
+Doing so will result in a deduction of 20 points.
