@@ -12,7 +12,7 @@ You will be implementing some basic functions in Python as practice, including u
 
 ## Setup
 
-Make sure Python 3.5+ is installed on your computer.
+Make sure Python 3.6+ is installed on your computer.
 
 You should work on this project (and the other projects in this course) in a virtual environment.
 To create and activate one, enter the following commands in your terminal:
@@ -32,7 +32,7 @@ For Windows:
 These instructions can also be found in the Week 1 slides.
 
 Testing this project with our public tests requires a package called `pytest`.
-To install it, run either of the following in your terminal while in your virtual environment:
+To install it, run either of the following in your terminal while in your virtual environment, depending on your system:
 ```bash    
 >>> pip3 install -r requirements.txt
 ```
