@@ -174,7 +174,7 @@ Compress a `p1` directory into a .zip file containing `practice.py` and `test_pr
 and submit it on ELMS after testing thoroughly; all of your work should be in this module.
 
 There are 16 public tests, and each will be worth 10 points.
-If your submission doesn't have the `practice.py` and `test_practice.py` files
-and/or has anything other than the `README.md`, 20 points will be deducted from your score.
+If your submission doesn't have the `practice.py` and `test_practice.py` files, 
+20 points will be deducted from your score.
 Do not include your virtual environment in your submission.
 Doing so will result in a deduction of 20 points.
