@@ -121,6 +121,17 @@ percentages:
 Any request for reconsideration of any grading on coursework must be submitted
 within one week of when it is returned. No requests will be considered afterwards.
 
+**Robustness**:
+
+If we perform any typical user actions on the website (e.g., clicking on links, navigating to
+different parts of the website using links, navigating to different parts of the website with direct URLs)
+and this causes a crash (a Flask error shows up on screen or the app crashes),
+then you may lose **up to 50%** of your final score, depending on the severity of the error.
+
+An example of a small error: syntax error in a Jinja template. 
+
+An example of a large error: a view function not being configured properly.
+
 ## Quizzes
 We will be assigning quizzes on ELMS to make sure you are keeping up with the material you need
 in order to complete the projects. They will be assigned after the topics that they cover
