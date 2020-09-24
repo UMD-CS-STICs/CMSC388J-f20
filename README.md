@@ -126,7 +126,7 @@ within one week of when it is returned. No requests will be considered afterward
 If we perform any typical user actions on the website (e.g., clicking on links, navigating to
 different parts of the website using links, navigating to different parts of the website with direct URLs)
 and this causes a crash (a Flask error shows up on screen or the app crashes),
-then you may lose **up to 50%** of your final score, depending on the severity of the error.
+then you may lose **up to 50%** of your final score for the project, depending on the severity of the error.
 
 An example of a small error: syntax error in a Jinja template. 
 
