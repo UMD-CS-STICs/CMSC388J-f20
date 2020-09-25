@@ -14,6 +14,12 @@ app = Flask(__name__)
 app.config["MONGO_URI"] = ""
 app.config['SECRET_KEY'] = ""
 
+app.config.update(
+    SESSION_COOKIE_SECURE=True,
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Lax',
+)
+
 mongo = PyMongo(app)
 
 client = MovieClient(os.environ.get('OMDB_API_KEY'))

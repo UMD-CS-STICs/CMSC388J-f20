@@ -112,8 +112,6 @@ OMDb API, a `static/` folder consisting of custom CSS (don't worry about this), 
 
 First, we'll explain `model.py`:
 - `model.py` consists of two classes. One is a `Movie` class, the other `MovieClient`.
-  These classes should be used with **MongoDB**. Failure to use Mongo 
-  (if you use SQLite or some other database, or the `session` object), will result in a 0.
 - The `MovieClient` class is instansiated with an API key (don't worry about this
   once you've set your environment variable), and it has two methods for you to use:
   - `search()` takes a `search_string` that the user entered into the search box
@@ -131,6 +129,8 @@ Here's what you need to do for this project, file by file:
 1. `app.py`:
    - Set the database and secret keys, so that Mongo works and the CSRF tokens
       can be generated. 
+   - Use **MongoDB** to store the reviews that have been submitted. Not using MongoDB
+     (if you use SQLite or some other database, or the `session` object), will result in a 0.
    - In `query_results(query)`, you'll need to use the `MovieClient` class to search 
      movies matching `query`. If an error is encountered,
      the error message should be displayed, and no query results. If the search is
@@ -149,7 +149,7 @@ Here's what you need to do for this project, file by file:
      provide the data.
    - **Note:** There is a `current_time()` function at the bottom of `app.py` that returns
      the current date and time as a neatly-formatted string.
-   - **Second note:** To determine what parameters to pass in to templates, peruse the templates.
+   - **Second note:** To determine what parameters to pass in to templates, inspect the templates.
 2. `forms.py`:
    - Create the two forms `SearchForm` and `MovieReviewForm`.
    - `SearchForm` has a text-box for entering a query, and a submit button. Check out
