@@ -61,7 +61,7 @@ permanently on your system (until you remove them, of course).
 2. Open the the `~/.bashrc` or `~/.zshrc` for modification using your favorite text editor (nano
    works perfectly fine for this, we're adding one line.)
 3. Somewhere in the file, preferably at the end so you can easily find it, type
-   `export OMDB_API_KEY={your_key_here}`, with your own key. 
+   `export OMDB_API_KEY={your_key_here}`, with your own key, *without the braces*.
    You don't need quotes around the API key. Restart your shell application if you haven't
    already, and your environment variable should be set. You can use the command
    `env | grep "OMDB_API_KEY"` in your shell to check if it is.
