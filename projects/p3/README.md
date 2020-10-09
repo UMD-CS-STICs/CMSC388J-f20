@@ -198,8 +198,6 @@ score on this project.
 
 After zipping, submit the zip file to the appropriate ELMS page. No test results will be shown.
 
-We'll release a demo video and grading guidelines in a few days.
-
 ## Grading
 
 No test results will be shown when you submit on ELMS.
