@@ -2,7 +2,7 @@
 
 **Assigned**: Week 6, October 7th, 2020
 
-**Due**: Week 8, October 21st, 2020, 11:59 PM
+**Due**: Week 8, October 22nd, 2020, 11:59 PM
 
 **Late Deadline**: Refer to syllabus for the policy.
 
