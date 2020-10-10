@@ -48,8 +48,7 @@ class MovieClient(object):
         data = resp.json()
 
         if data["Response"] == "False":
-            print(f'[ERROR]: Error retrieving results: \'{data["Error"]}\' ')
-            return data
+            raise ValueError(f'[ERROR]: Error retrieving results: \'{data["Error"]}\' ')
 
         search_results_json = data["Search"]
         remaining_results = int(data["totalResults"])
@@ -87,8 +86,7 @@ class MovieClient(object):
         data = resp.json()
 
         if data["Response"] == "False":
-            print(f'[ERROR]: Error retrieving results: \'{data["Error"]}\' ')
-            return data
+            raise ValueError(f'[ERROR]: Error retrieving results: \'{data["Error"]}\' ')
 
         movie = Movie(data, detailed=True)
 
@@ -105,4 +103,5 @@ if __name__ == "__main__":
 
     for movie in movies:
         print(movie)
+
     print(len(movies))
