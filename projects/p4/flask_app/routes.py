@@ -60,7 +60,7 @@ def movie_detail(movie_id):
     form = MovieReviewForm()
     if form.validate_on_submit():
         review = Review(
-            commenter=current_user.username,
+            commenter=current_user._get_current_object(),
             content=form.text.data,
             date=current_time(),
             imdb_id=movie_id,
