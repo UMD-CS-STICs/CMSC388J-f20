@@ -79,7 +79,7 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
 | 5    | User Management                                | Quiz 2 due                                                         |
 | 6    | Bootstrap & more                               | P3 due, P4 assigned, Quiz 3 assigned: weeks 5-6                    |
 | 7    | In-depth CSS & JS*                             | Quiz 3 due                                                         |
-| 8    | Extensions (opt., publishing)                  | P4 due                                                             |
+| 8    | None - break week                              | P4 due                                                             |
 | 9    | Extensions, Logging, App Factories, Blueprints | P5 assigned                                                        |
 | 10   | HTTP Headers & Talisman                        | Quiz 4 assigned, weeks 7-10                                        |
 | 11   | (Pending)                                      | P5 due, Quiz 4 due, Final Project Proposal assigned                |
