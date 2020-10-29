@@ -14,14 +14,14 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
 - **Course**: CMSC388J
 - **Prerequisites**: C- or better in CMSC216 and CMSC250
 - **Credits**: 1
-- **Seats**: 38
+- **Seats**: 39
 - **Lecture Time**: Wednesdays @ 5-6 PM; ASYNCHRONOUS
 - **Location**: ONLINE
 - **Semester**: Fall 2020
 - **Textbook**: No textbook, all materials are provided and documentation is online
 - **Course Facilitators**: Yashas Lokesh, Kenton Wong
 - **Faculty Advisor**: Michael Marsh
-- **Syllabus last updated**: August 31st, 2020
+- **Syllabus last updated**: October 28th, 2020
 - **Previously offered**: Spring 2020, Fall 2019
 
 ## Topics Covered
@@ -70,23 +70,24 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
   - Git
 
 ## Schedule
-| Week | Topic                                    | Assignment                                      |
-| ---- | ---------------------------------------- | ----------------------------------------------- |
-| 1    | Intro to Python                          | Python practice (P1) assigned                   |
-| 2    | Flask Intro                              | P1 due, P2 assigned, Quiz 1 assigned: weeks 1-2 |
-| 3    | Forms, CSRF                              | Quiz 1 due                                      |
-| 4    | Databases, Injection Attacks             | P2 due, P3 assigned, Quiz 2 assigned: weeks 3-4 |
-| 5    | User Management                          | Quiz 2 due                                      |
-| 6    | Bootstrap & more                         | P3 due, P4 assigned, Quiz 3 assigned: weeks 5-6 |
-| 7    | In-depth CSS & JS*                       | Quiz 3 due                                      |
-| 8    | Extensions (opt., publishing)            | P4 due, P5 assigned, Quiz 4 assigned: weeks 7-8 |
-| 9    | Logging, Workday                         | Quiz 4 due                                      |
-| 10   | HTTP Headers & Talisman                  | P5 due, Final Project assigned                  |
-| 11   | Blueprints                               |                                                 |
-| 12   | Two-Factor Authentication                | Quiz 5 assigned, weeks 9-12                     |
-| 13   | THANKSGIVING BREAK                       | Quiz 5 due                                      |
-| 14   | Payments with Stripe*                    |                                                 |
-| 15   | Deploying your app                       | Final Project due                               |
+| Week | Topic                                          | Assignment                                                         |
+| ---- | ---------------------------------------------- | ------------------------------------------------------------------ |
+| 1    | Intro to Python                                | Python practice (P1) assigned                                      |
+| 2    | Flask Intro                                    | P1 due, P2 assigned, Quiz 1 assigned: weeks 1-2                    |
+| 3    | Forms, CSRF                                    | Quiz 1 due                                                         |
+| 4    | Databases, Injection Attacks                   | P2 due, P3 assigned, Quiz 2 assigned: weeks 3-4                    |
+| 5    | User Management                                | Quiz 2 due                                                         |
+| 6    | Bootstrap & more                               | P3 due, P4 assigned, Quiz 3 assigned: weeks 5-6                    |
+| 7    | In-depth CSS & JS*                             | Quiz 3 due                                                         |
+| 8    | Extensions (opt., publishing)                  | P4 due                                                             |
+| 9    | Extensions, Logging, App Factories, Blueprints | P5 assigned                                                        |
+| 10   | HTTP Headers & Talisman                        | Quiz 4 assigned, weeks 7-10                                        |
+| 11   | (Pending)                                      | P5 due, Quiz 4 due, Final Project Proposal assigned                |
+| 12   | Two-Factor Authentication                      | Proposal due, Final Project assigned, Quiz 5 assigned, weeks 10-12 |
+| 13   | THANKSGIVING BREAK                             | Quiz 5 due                                                         |
+| 14   | Payments with Stripe*                          |                                                                    |
+| 15   | Deploying your app                             |                                                                    |
+| 16   | None - finals week                             | Final Project due                                                  |
 
 * See **Flexible Schedule** section below
 
