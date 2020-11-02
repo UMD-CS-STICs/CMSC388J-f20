@@ -158,7 +158,7 @@ def account():
         # current_user.username = username_form.username.data
         current_user.modify(username=username_form.username.data)
         current_user.save()
-        return redirect(url_for("account"))
+        return redirect(url_for("main.account"))
 
     return render_template(
         "account.html",
