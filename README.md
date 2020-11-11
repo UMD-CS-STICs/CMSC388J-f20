@@ -21,7 +21,7 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
 - **Textbook**: No textbook, all materials are provided and documentation is online
 - **Course Facilitators**: Yashas Lokesh, Kenton Wong
 - **Faculty Advisor**: Michael Marsh
-- **Syllabus last updated**: October 28th, 2020
+- **Syllabus last updated**: November 10th, 2020
 - **Previously offered**: Spring 2020, Fall 2019
 
 ## Topics Covered
@@ -44,7 +44,6 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
   - Templating
   - Adding extensions for more features
     - WTForms
-    - SQLAlchemy
     - Talisman
     - Login
     - Creating your own
@@ -56,9 +55,6 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
   - Integrating other frameworks
   - Custom CSS/JS configuration
 - Databases
-  - SQL
-      - SQLite
-      - PostgreSQL
   - MongoDB
 - Payments Integration
   - Stripe (possibly others, we're open to suggestions)
@@ -70,24 +66,24 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
   - Git
 
 ## Schedule
-| Week | Topic                                          | Assignment                                                         |
-| ---- | ---------------------------------------------- | ------------------------------------------------------------------ |
-| 1    | Intro to Python                                | Python practice (P1) assigned                                      |
-| 2    | Flask Intro                                    | P1 due, P2 assigned, Quiz 1 assigned: weeks 1-2                    |
-| 3    | Forms, CSRF                                    | Quiz 1 due                                                         |
-| 4    | Databases, Injection Attacks                   | P2 due, P3 assigned, Quiz 2 assigned: weeks 3-4                    |
-| 5    | User Management                                | Quiz 2 due                                                         |
-| 6    | Bootstrap & more                               | P3 due, P4 assigned, Quiz 3 assigned: weeks 5-6                    |
-| 7    | In-depth CSS & JS*                             | Quiz 3 due                                                         |
-| 8    | None - break week                              | P4 due                                                             |
-| 9    | Extensions, Logging, App Factories, Blueprints | P5 assigned                                                        |
-| 10   | HTTP Headers & Talisman                        | Quiz 4 assigned, weeks 7-10                                        |
-| 11   | (Pending)                                      | P5 due, Quiz 4 due, Final Project Proposal assigned                |
-| 12   | Two-Factor Authentication                      | Proposal due, Final Project assigned, Quiz 5 assigned, weeks 10-12 |
-| 13   | THANKSGIVING BREAK                             | Quiz 5 due                                                         |
-| 14   | Payments with Stripe*                          |                                                                    |
-| 15   | Deploying your app                             |                                                                    |
-| 16   | None - finals week                             | Final Project due                                                  |
+| Week | Topic                                          | Assignment                                      |
+| ---- | ---------------------------------------------- | ----------------------------------------------- |
+| 1    | Intro to Python                                | P1 assigned                                     |
+| 2    | Flask Intro                                    | P1 due, P2 assigned, Quiz 1 assigned: weeks 1-2 |
+| 3    | Forms, CSRF                                    | Quiz 1 due                                      |
+| 4    | Databases, Injection Attacks                   | P2 due, P3 assigned, Quiz 2 assigned: weeks 3-4 |
+| 5    | User Management                                | Quiz 2 due                                      |
+| 6    | Bootstrap & more                               | P3 due, P4 assigned, Quiz 3 assigned: weeks 5-6 |
+| 7    | In-depth CSS & JS*                             | Quiz 3 due                                      |
+| 8    | None - break week                              | P4 due                                          |
+| 9    | Extensions, Logging, App Factories, Blueprints | P5 assigned                                     |
+| 10   | HTTP Headers & Talisman                        | Quiz 4 assigned, weeks 7-10                     |
+| 11   | Two-Factor Authentication                      | P5 due, Quiz 4 due, Final Project assigned      |
+| 12   | (Pending)                                      | Proposal due, Quiz 5 assigned, weeks 11-12      |
+| 13   | THANKSGIVING BREAK                             |                                                 |
+| 14   | Payments with Stripe*                          | Quiz 5 due                                      |
+| 15   | Deploying your app                             |                                                 |
+| 16   | None - finals week                             | Final Project due                               |
 
 * See **Flexible Schedule** section below
 
