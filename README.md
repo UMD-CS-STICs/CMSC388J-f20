@@ -79,7 +79,7 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
 | 9    | Extensions, Logging, App Factories, Blueprints | P5 assigned                                     |
 | 10   | HTTP Headers & Talisman                        | Quiz 4 assigned, weeks 7-10                     |
 | 11   | Two-Factor Authentication                      | P5 due, Quiz 4 due, Final Project assigned      |
-| 12   | (Pending)                                      | Proposal due, Quiz 5 assigned, weeks 11-12      |
+| 12   | Some Useful Python Packages                    | Proposal due, Quiz 5 assigned, weeks 11-12      |
 | 13   | THANKSGIVING BREAK                             |                                                 |
 | 14   | Payments with Stripe*                          | Quiz 5 due                                      |
 | 15   | Deploying your app                             |                                                 |
