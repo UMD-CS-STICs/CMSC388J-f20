@@ -81,8 +81,8 @@ and more! At the end of the course, you'll be able to deploy your app for the wo
 | 11   | Two-Factor Authentication                      | P5 due, Quiz 4 due, Final Project assigned      |
 | 12   | Some Useful Python Packages                    | Proposal due, Quiz 5 assigned, weeks 11-12      |
 | 13   | THANKSGIVING BREAK                             |                                                 |
-| 14   | Payments with Stripe*                          | Quiz 5 due                                      |
-| 15   | Deploying your app                             |                                                 |
+| 14   | Deploying your app                             | Quiz 5 due                                      |
+| 15   | Payments with Stripe*                          |                                                 |
 | 16   | None - finals week                             | Final Project due                               |
 
 * See **Flexible Schedule** section below
